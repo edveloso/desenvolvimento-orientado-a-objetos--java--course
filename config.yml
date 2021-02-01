@@ -1,0 +1,18 @@
+title: Desenvolvimento Orientado a Objetos (Java)
+description: >-
+  Curso para desenvolver o conhecimento de Programação Orientada a Objetos com
+  Java
+template:
+  repo: desenvolvimento-orientado-a-objetos-(java)-template
+  name: desenvolvimento-orientado-a-objetos-(java)
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
